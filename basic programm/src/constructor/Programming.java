@@ -10,11 +10,11 @@ public class Programming {
 	}
 
 	
-	public Programming(String language)
+	public Programming(String name)
 	{
+		this.name=name;
 		
-		name =language;
-		System.out.println(" I want to learn "+name);
+		System.out.println(" I want to learn "+name+" ");
 		
 	}
 }
