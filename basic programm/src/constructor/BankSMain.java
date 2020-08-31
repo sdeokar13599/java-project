@@ -6,8 +6,11 @@ public class BankSMain {
 
 	public static void main(String[] args) {
 	
-		Bank IntialAmount=new Bank();
-		Bank AddAmount=new Bank(5000);
+
+		Bank bank = new Bank();
+		bank.display();
+		Bank bank1 = new Bank(1000);
+        bank1.display();
 		
 
 	}
