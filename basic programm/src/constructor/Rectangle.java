@@ -14,19 +14,19 @@ public class Rectangle {
 		
 	}
 	
-	public  Rectangle(int l, int b)
+	public  Rectangle(int length, int breadth)
 	{
-		length=l;
-		breadth=b;
+		this.length=length;
+		this.breadth=breadth;
 		
 		
 	}
 	
-	public  Rectangle(int c)
+	public  Rectangle(int num)
 	{
  		   
-		length=c;
-		breadth=c;
+		length=num;
+		breadth=num;
 		
 		
 	}
