@@ -18,7 +18,13 @@ public class UseofFinally {
 	  		int result=0;
 	  		try {
 	  		result=num1/num2;
-	      }
+                 
+	      } 
+                    Catch(ArithmeticException e) 
+                       { 
+                          System.out.println("Exception Handled");
+
+                         }
 	  		finally
 	  		{
 	  			System.out.println("this is  demo of finally ");
